@@ -33,7 +33,7 @@ nav { display: flex; flex-wrap: wrap; gap: 14px 30px; }
 nav a { font-size: 14px; font-weight: 550; text-decoration: none; }
 nav a:hover { text-decoration: underline; }
 /* Full-width photograph remains visible behind high-contrast text. */
-.hero { position: relative; min-height: clamp(560px, 76vh, 850px); display: flex; justify-content: center; align-items: flex-end; padding: 70px var(--space) 60px; background-color: var(--forest-dark); background-image: linear-gradient(180deg, rgba(4,18,11,.06) 15%, rgba(4,18,11,.25) 45%, rgba(4,18,11,.88) 100%), url("assets/mount-rainier.jpg"); background-size: cover; background-position: center 42%; text-align: center; color: var(--white); }
+.hero { position: relative; min-height: clamp(560px, 76vh, 850px); display: flex; justify-content: center; align-items: flex-end; padding: 70px var(--space) 60px; background-color: var(--forest-dark); background-image: linear-gradient(180deg, rgba(4,18,11,.06) 15%, rgba(4,18,11,.25) 45%, rgba(4,18,11,.88) 100%), url("mount-rainier.jpg"); background-size: cover; background-position: center 42%; text-align: center; color: var(--white); }
 .hero-copy { max-width: 1100px; padding-bottom: 28px; }
 .hero h1 { margin-bottom: 24px; }
 .eyebrow { margin-bottom: 22px; color: var(--forest); font-size: 11px; font-weight: 700; line-height: 1.5; letter-spacing: .19em; text-transform: uppercase; }
